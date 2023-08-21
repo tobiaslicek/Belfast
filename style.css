@@ -7,10 +7,35 @@
 
     --ff: font-family: 'Roboto', sans-serif;
 
-    --fw-regular: 300;
+    --fw-regular: 400;
     --fw-bold: 700;
     --fw-heavy: 900;
 
     --fs-base: 1.125rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+html {
+    text-align: center;
+    width: 40%;
+    margin: 4rem auto;
+}
+
+body {
+    margin: 0;
+    font-family: var(--ff);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    color: var(--text);
+    line-height: 1.5;
 }
 
