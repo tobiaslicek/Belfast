@@ -1,0 +1,16 @@
+:root {
+    --clr-background1: #ffffff;
+    --clr-background2: #FFE964;
+    --clr-background3: #ff523d;
+    --clr-background4: #223c88;
+    --text: #000;
+
+    --ff: font-family: 'Roboto', sans-serif;
+
+    --fw-regular: 300;
+    --fw-bold: 700;
+    --fw-heavy: 900;
+
+    --fs-base: 1.125rem;
+}
+
